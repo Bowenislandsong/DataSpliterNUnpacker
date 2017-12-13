@@ -10,13 +10,15 @@ This project is capable of splitting a dataset into different zip files and/or u
 
 Place the files in a sibling folder as Resource and Coding.
 
-Run with "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main <#ofNodes>"
+Run with "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main  <Resource_folder> <Code_Folder> <#ofNodes>"
 
-For example: java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main Resource Code 5
+For example: "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main Resource Code 5"
 
-Using Packed jar File: java -jar java -jar Unpacker.jar <Resource_folder> <Code_Folder>
+## Jar
 
-For Example: java -jar Unpacker.jar Resource Code 5
+Using Packed jar File: "java -jar java -jar Unpacker.jar <Resource_folder> <Code_Folder> <#ofNodes>"
+
+For Example: "java -jar Unpacker.jar Resource Code 5"
 
 Application will return on "System.exit" an int value for the actual number of nodes needed. This number will be equal or less than claimed number of nodes.
 

@@ -6,7 +6,7 @@ This project is capable of splitting a dataset into different zip files and/or u
 - zip4j_1.3.2.jar
 - java 1.8
 
-# Environment & Running Instruction
+# Environment & Running Instruction for Spliter
 
 Place the files in a sibling folder as Resource and Coding.
 
@@ -19,6 +19,22 @@ For example: "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main Resource Code 
 Using Packed jar File: "java -jar java -jar Unpacker.jar <Resource_folder> <Code_Folder> <#ofNodes>"
 
 For Example: "java -jar Unpacker.jar Resource Code 5"
+
+# Environment & Running Instruction for Unpacker
+
+Place the files in a sibling folder as Target unpacking folder.
+
+Run with "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main  <Target Folder>"
+
+For example: "java -cp "zip4j_1.3.2.jar:commons-io-2.6.jar:" Main Target_Folder"
+
+## Jar
+
+Using Packed jar File: "java -jar java -jar Unpacker.jar <Target Folder>"
+
+For Example: "java -jar Unpacker.jar Target_Folder"
+
+## Output
 
 Application will return on "System.exit" an int value for the actual number of nodes needed. This number will be equal or less than claimed number of nodes.
 

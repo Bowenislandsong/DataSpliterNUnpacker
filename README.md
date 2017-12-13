@@ -6,7 +6,7 @@ This project is capable of splitting a dataset into different zip files and/or u
 - zip4j_1.3.2.jar
 - java 1.8
 
-# Environment & Running Instruction for Spliter
+# Spliter Environment & Running Instruction 
 
 Place the files in a sibling folder as Resource and Coding.
 
@@ -20,7 +20,7 @@ Using Packed jar File: "java -jar java -jar Unpacker.jar <Resource_folder> <Code
 
 For Example: "java -jar Unpacker.jar Resource Code 5"
 
-# Environment & Running Instruction for Unpacker
+# Unpacker Environment & Running Instruction
 
 Place the files in a sibling folder as Target unpacking folder.
 

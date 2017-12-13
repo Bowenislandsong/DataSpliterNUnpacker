@@ -2,9 +2,9 @@
 This project is capable of splitting a dataset into different zip files and/or unpack all zip files in a folder
 
 # Dependency 
-commons-io-2.6.jar
-zip4j_1.3.2.jar
-java 1.8
+- commons-io-2.6.jar
+- zip4j_1.3.2.jar
+- java 1.8
 
 # Environment & Running Instruction
 
